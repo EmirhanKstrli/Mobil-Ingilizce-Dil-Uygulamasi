@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".Ders1">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:onClick="geri"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/back"
+                    style="@style/CİKİS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Am / Is / Are"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="190dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      'Am', 'is', ve 'are', İngilizce'de 'to be' (olmak) fiilinin şimdiki zaman çekimleridir. Bu fiiller öznenin durumunu veya bir olayı belirtmek için kullanılır. İşte her birinin nasıl kullanıldığına dair bir açıklama:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. 'Am'"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Am' sadece 'I' (ben) öznesi ile kullanılır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- I am a student. (Ben bir öğrenciyim.)
+                    - I am happy. (Mutluyum.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. 'Is'"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Is' üçüncü tekil şahıs (he, she, it) ile kullanılır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- He is a teacher. (O bir öğretmen.)\n- She is at home. (O evde.)\n- It is raining. (Yağmur yağıyor.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. 'Are'"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Are' çoğul özneler (we, you, they) ve ikinci tekil şahıs (you) ile kullanılır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- We are friends. (Biz arkadaşız.)\n- You are my brother. (Sen benim kardeşimsin.)\n- They are playing football. (Onlar futbol oynuyor.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kullanım Örnekleri:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Olumlu Cümleler (Affirmative Sentences):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- I am a doctor. (Ben doktorum.)\n- She is busy. (O meşgul.)\n- We are ready. (Biz hazırız.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Olumsuz Cümleler (Negative Sentences):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- I am not a doctor. (Ben doktor değilim.)\n- She is not busy. (O meşgul değil.)\n- We are not ready. (Biz hazır değiliz.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Soru Cümleleri (Interrogative Sentences):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Am I a doctor? (Ben doktor muyum?)\n- Is she busy? (O meşgul mü?)\n- Are we ready? (Biz hazır mıyız?)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Özet:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- 'Am' sadece 'I' ile kullanılır.\n- 'Is' he, she, it ile kullanılır.\n- 'Are' you, we, they ile kullanılır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bu temel kurallar sayesinde 'am', 'is' ve 'are' fiillerini doğru şekilde kullanabilirsiniz. İngilizce dil bilgisinde bu fiillerin doğru kullanımı, cümlelerin anlamını doğru iletmek için önemlidir."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelime Öğrenelim:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See - Görmek"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi1"
+                        android:layout_toRightOf="@id/satir1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="42dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read - Okumak"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Write - Yazmak"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi2"
+                        android:layout_toRightOf="@id/satir2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pen - Kalem"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table - Masa"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi3"
+                        android:layout_toRightOf="@id/satir3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chair - Sandalye"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year - Yıl"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi4"
+                        android:layout_toRightOf="@id/satir4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="74dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today - Bugün"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tomorrow - Yarın"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi5"
+                        android:layout_toRightOf="@id/satir5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yesterday - Dün"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250sp"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/buton3"
+                    android:onClick="geri"
+                    android:text="Geri Dön" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

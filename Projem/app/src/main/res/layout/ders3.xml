@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".Ders3">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:onClick="geri"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/back"
+                    style="@style/CİKİS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Future Tense"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="185dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      İngilizce'de gelecek zamanı ifade etmek için birkaç farklı yol var. İşte en yaygın kullanılan yöntemler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Will Future (Will Gelecek Zamanı):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genellikle bir tahminde bulunmak, gelecekteki bir olayı spontane olarak belirtmek veya karar verirken kullanılır.\n\nŞema: [Subject] + will + [verb] + [object/any additional phrases]"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- I will go to the store later. (Daha sonra mağazaya gideceğim.)\n\n- She will probably arrive at 7 PM. (O, muhtemelen saat 7'de gelecek.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Going to Future (Going to Gelecek Zamanı):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gelecekteki bir niyeti, planı veya yaklaşmakta olan bir olayı ifade etmek için kullanılır.\n\nŞema: [Subject] + am/is/are going to + [verb] + [object/any additional phrases]"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- They are going to visit their grandparents next weekend. (Onlar, gelecek hafta sonu büyük anne ve büyükbabalarını ziyaret edecekler.)\n\n- I am going to start a new job next month. (Gelecek ay yeni bir işe başlayacağım.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Future Continuous (Future Continuous Gelecek Zamanı):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gelecekte belirli bir zamanda süreklilik arz eden bir eylemi ifade etmek için kullanılır.\n\nŞema: [Subject] + will be + [verb + ing] + [object/any additional phrases]"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- This time next week, I will be relaxing on the beach. (Gelecek hafta bu zamanlar, plajda dinleniyor olacağım.)\n\n- They will be studying for their exams all night. (Bütün gece sınavları için çalışıyor olacaklar.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bu yapıları kullanarak, İngilizce'de gelecekle ilgili durumları ve planları anlatabilirsin!"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelime Öğrenelim:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Family - Aile"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi6"
+                        android:layout_toRightOf="@id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="School - Okul"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Afternoon - Öğleden sonra"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi7"
+                        android:layout_toRightOf="@id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Money - Para"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medicine - İlaç"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi8"
+                        android:layout_toRightOf="@id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="114dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sun - Güneş"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weather - Hava Durumu"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi9"
+                        android:layout_toRightOf="@id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wind - Rüzgar"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holiday - Tatil"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi10"
+                        android:layout_toRightOf="@id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snow - Kar"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250sp"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/buton3"
+                    android:onClick="geri"
+                    android:text="Geri Dön" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

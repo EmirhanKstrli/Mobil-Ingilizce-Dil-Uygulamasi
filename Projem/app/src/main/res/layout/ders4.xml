@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".Ders4">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:onClick="geri"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/back"
+                    style="@style/CİKİS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Present Tense"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="175dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      Present Tense'in İngilizce'deki kullanımı ve yapıları:\n\n      Present Tense (Şimdiki Zaman), genelde şu andaki zamanı ifade etmek için kullanılır. İşte bazı temel yapılar ve kullanımları:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Simple Present Tense (Basit Şimdiki Zaman):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Genel doğruları ve genel geçer ifadeleri ifade etmek için kullanılır.\nÖrneğin: The Earth revolves around the sun. (Dünya, güneş etrafında döner.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Alışkanlıkları ve tekrarlanan olayları ifade etmek için kullanılır.\nÖrneğin: I drink tea every morning. (Her sabah çay içerim.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Rutinleri ifade etmek için kullanılır.\nÖrneğin: She goes to the gym three times a week. (Haftada üç kez spor salonuna gider.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Present Continuous (Progressive) Tense (Şimdiki Sürekli Zaman):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Şu anda devam etmekte olan eylemleri ifade etmek için kullanılır.\nÖrneğin: I am reading a book. (Bir kitap okuyorum.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Gelecekte belirli bir zamanda yapılacak planlanmış eylemleri ifade etmek için de kullanılabilir.\nÖrneğin: They are meeting at 8 o'clock tomorrow. (Yarın saat 8'de buluşuyorlar.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Present Perfect Tense (Şimdiki Tamamlanmış Zaman):"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Geçmişteki deneyimleri ifade etmek için de kullanılabilir.\nÖrneğin: She has visited Paris three times. (Paris'i üç kez ziyaret etti.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Present Tense, İngilizce'de sıkça kullanılan ve temel bir zaman biçimidir. Günlük yaşamda, alıştığınız ve şu anda yaptığınız eylemleri ifade etmek için sıkça kullanılır. Bu yapıları öğrenerek, günlük İngilizce iletişim becerilerinizi geliştirebilirsiniz."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelime Öğrenelim:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Happy - Mutlu"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi6"
+                        android:layout_toRightOf="@id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="107dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sad - Üzgün"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Excited - Heyecanlı"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi7"
+                        android:layout_toRightOf="@id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="72dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nervous - Sinirli"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Surprised - Şaşırmış"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi8"
+                        android:layout_toRightOf="@id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="64dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tired - Yorgun"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Confused - Kafası karışık"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi9"
+                        android:layout_toRightOf="@id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calm - Sakin"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Content - Memnun"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi10"
+                        android:layout_toRightOf="@id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="75dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snake - Yılan"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250sp"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/buton3"
+                    android:onClick="geri"
+                    android:text="Geri Dön" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

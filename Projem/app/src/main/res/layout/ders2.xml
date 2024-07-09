@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".Ders2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:onClick="geri"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/back"
+                    style="@style/CİKİS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Simple Past Tense"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="135dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      Simple Past Tense (Basit Geçmiş Zaman), İngilizce'de geçmişte belirli bir zamanda tamamlanmış olayları, durumları veya alışkanlıkları ifade etmek için kullanılır. Simple Past Tense'in yapısı, kullanımı ve örnekleri:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yapısı"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Düzenli Fiiller (Regular Verbs)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Düzenli fiillerin geçmiş zaman hali, fiilin sonuna '-ed' eklenerek yapılır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Walk → Walked\n- Talk → Talked\n- Play → Played"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Düzensiz Fiiller (Irregular Verbs)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Düzensiz fiillerin geçmiş zaman halleri düzensiz olduğundan ezberlenmeleri gerekir."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Go → Went\n- Eat → Ate\n- See → Saw"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Olumlu Cümleler (Affirmative Sentences)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Özne + Fiilin Geçmiş Zaman Hali + Nesne"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soru Cümleleri (Interrogative Sentences)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Did + Özne + Fiilin Yalın Hali + Nesne?"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Örnekler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kullanım Alanları"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Geçmişte Tamamlanmış Eylemler:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- I finished my homework last night. (Dün gece ödevimi bitirdim.)\n\n- He graduated from university in 2010. (2010 yılında üniversiteden mezun oldu.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Geçmişte Belirli Bir Zamanda Gerçekleşen Olaylar:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- They visited Paris last summer. (Geçen yaz Paris'i ziyaret ettiler.)\n\n- We saw a great show at the theater. (Tiyatroda harika bir gösteri izledik.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Geçmişteki Alışkanlıklar:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- When I was a child, I played outside every day. (Çocukken her gün dışarıda oynardım.)\n\n- He often visited his grandparents on Sundays. (Pazar günleri sık sık büyükannesini ve büyükbabasını ziyaret ederdi.)"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simple Past Tense, geçmişte belirli bir zamanda meydana gelen olayları ifade etmek için kullanılır ve anlatımı basittir. Düzenli fiiller '-ed' eki alırken, düzensiz fiillerin geçmiş zaman halleri ezberlenmelidir. Olumlu, olumsuz ve soru cümleleriyle kullanımı farklı kalıplara sahiptir ve bu kalıplar doğru bir şekilde öğrenildiğinde, geçmiş zaman olaylarını anlatmak kolaylaşır."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelime Öğrenelim:"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Schedule - Program"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi6"
+                        android:layout_toRightOf="@id/satir6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="57dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event - Etkinlik"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment - Randevu"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi7"
+                        android:layout_toRightOf="@id/satir7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ticket - Bilet"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Journey - Yolculuk"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi8"
+                        android:layout_toRightOf="@id/satir8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="67dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bed - Yatak"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conversation - Konuşma"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi9"
+                        android:layout_toRightOf="@id/satir9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job - İş"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Neighbor - Komşu"
+                        android:paddingStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:id="@+id/cizgi10"
+                        android:layout_toRightOf="@id/satir10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="68dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        style="@style/TEXT_QA"
+                        android:layout_toRightOf="@id/cizgi10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snow - Kar"
+                        android:paddingEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250sp"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/buton3"
+                    android:onClick="geri"
+                    android:text="Geri Dön" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

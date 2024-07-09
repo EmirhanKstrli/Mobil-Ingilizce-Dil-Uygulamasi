@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projem" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="actionBarStyle">@id/none</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="toolbarStyle">@id/none</item>
+    </style>
+
+    <style name="Theme.Projem" parent="Base.Theme.Projem" />
+
+    <!-- Light mode -->
+    <!-- Screen background if light mode on -->
+    <style name="SCREEN">
+        <item name="android:background">#FFF</item>
+    </style>
+
+    <!-- Texts background if light mode on -->
+
+    <style name="CİKİS">
+        <item name="android:background">#E1E1E1</item>
+    </style>
+
+    <style name="ASAMA1">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#4CAF50</item>
+    </style>
+
+    <style name="ASAMA2">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#EA860B</item>
+    </style>
+
+    <style name="ASAMA3">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#EA0B0B</item>
+    </style>
+
+    <!-- Button background if light mode on -->
+    <style name="BUTTON">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="TOOLBAR">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#E1E1E1</item>
+    </style>
+
+    <style name="ILETISIM">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#FF232323</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="TEXT_BUTTON">
+        <item name="android:background">#232323</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TEXT_QA">
+        <item name="android:textColor">#000</item>
+    </style>
+
+</resources>

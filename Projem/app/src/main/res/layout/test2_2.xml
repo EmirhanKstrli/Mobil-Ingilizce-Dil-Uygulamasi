@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    android:padding="20dp"
+    tools:context=".Test2_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_question6"
+        android:layout_marginTop="0dp"
+        android:text="Toplam Soru"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        style="@style/TEXT_QA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question6"
+        android:textStyle="bold"
+        android:text="Buraya Soru Gelecek"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_above="@+id/choices_layout6"
+        android:layout_marginBottom="50dp"
+        style="@style/TEXT_QA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_layout6"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_A6"
+            android:layout_margin="5dp"
+            android:background="@color/butonrenk2"
+            android:text="A şıkkı"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_B6"
+            android:layout_margin="5dp"
+            android:background="@color/butonrenk2"
+            android:text="B şıkkı"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_C6"
+            android:layout_margin="5dp"
+            android:background="@color/butonrenk2"
+            android:text="C şıkkı"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_D6"
+            android:layout_margin="5dp"
+            android:background="@color/butonrenk2"
+            android:text="D şıkkı"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_btn6"
+        android:text="Onayla"
+        android:layout_below="@+id/choices_layout6"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@style/TEXT_BUTTON"/>
+
+</RelativeLayout>

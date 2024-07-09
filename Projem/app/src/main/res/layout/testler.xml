@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".Testler">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:onClick="geri"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/back"
+                    style="@style/CİKİS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Testler"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="245dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ASAMA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="1. Aşama: Kolay"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/ASAMA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:text="Temel Düzeyde İngilizceni Test Et"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders1"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buton"
+                android:onClick="test1"
+                android:text="1. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders2"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton"
+                android:onClick="test2"
+                android:text="2. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders3"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton"
+                android:onClick="test3"
+                android:text="3. Test" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders4"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton"
+                android:onClick="test4"
+                android:text="4. Test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ASAMA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="2. Aşama: Orta"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/ASAMA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:text="Orta Düzeyde İngilizceni Test Et"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders5"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buton2"
+                android:onClick="test5"
+                android:text="1. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders6"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton2"
+                android:onClick="test6"
+                android:text="2. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders7"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton2"
+                android:onClick="test7"
+                android:text="3. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders8"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton2"
+                android:onClick="test8"
+                android:text="4. Test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ASAMA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="3. Aşama: Zor"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/ASAMA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:text="Zor Düzeyde İngilizceni Test Et"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders9"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buton3"
+                android:onClick="test9"
+                android:text="1. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders10"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton3"
+                android:onClick="test10"
+                android:text="2. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders11"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buton3"
+                android:onClick="test11"
+                android:text="3. Test" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ders12"
+                style="@style/BUTTON"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/buton3"
+                android:onClick="test12"
+                android:text="4. Test" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

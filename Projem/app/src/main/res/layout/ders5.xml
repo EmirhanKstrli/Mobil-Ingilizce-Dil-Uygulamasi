@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".Ders5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/TOOLBAR"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:onClick="geri"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/back"
+                style="@style/CİKİS"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Kelime Bankası"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:layout_marginStart="167dp"
+                android:textStyle="bold"
+                style="@style/TOOLBAR"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After - Sonra"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="125dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Art - Sanat"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accompany - Eşlik Etmek"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accident - Kaza"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backpack - Sırt Çantası"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="50dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance - Denge"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bald - Kel"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="148dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belt - Kemer"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collide - Çarpışmak"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="77dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clue - İpucu"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Creative - Yaratıcı"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="91dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cute - Sevimli"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Divorce - Boşanma"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="81dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drawing - Çizim"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dream - Hayal"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="115dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dent - Göçük"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit - Düzenlemek"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="88dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ear - Kulak"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exile - Sürgün"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="119dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Emotion - Duygu"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fade - Rengi Solmak"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="70dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fur - Kürk"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faint - Bayılmak"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="102dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flat - Daire"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gain - Kazanmak"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="94dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guard - Korumak"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gravity - Yer çekimi"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="79dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grow - Büyümek"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hammer - Çekiç"
+                    android:paddingStart="15dp" android:layout_marginTop="10dp"
+                    android:layout_marginEnd="101dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hang - Asmak"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harbor - Liman"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="109dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hawk - Şahin"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Impossible - İmkansız"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Injured - Yaralı"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invisible - Görünmez"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="70dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invention - İcat"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jeep - Jip"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="145dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                     style="@style/TEXT_QA"
+                     android:layout_toRightOf="@id/satir19"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Jewelry	Takı"
+                     android:paddingEnd="10dp"
+                     android:layout_marginTop="10dp"
+                     android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:id="@+id/satir20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jukebox - Müzik Kutusu"
+                    android:paddingStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="46dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_toRightOf="@id/satir20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jeans - Kot"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

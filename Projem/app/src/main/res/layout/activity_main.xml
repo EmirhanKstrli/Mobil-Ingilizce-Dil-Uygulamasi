@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/SCREEN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Anasayfa"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    style="@style/TOOLBAR"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:onClick="ayarlar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="205dp"
+                    android:src="@drawable/settings"
+                    style="@style/CİKİS"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dersler"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/buton"
+                    android:onClick="ders1"
+                    android:text="Am / Is / Are"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/buton"
+                    android:onClick="ders2"
+                    android:text="Simple Past Tense (Geçmiş Zaman)"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/buton"
+                    android:onClick="ders3"
+                    android:text="Future Tense (Gelecek Zaman)"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp" android:background="@drawable/buton"
+                    android:onClick="ders4"
+                    android:text="Present Tense (Geniş Zaman)"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/buton"
+                    android:onClick="ders5"
+                    android:text="Kelime Bankası"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    style="@style/TEXT_QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="_______________________________________________________"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:layout_marginTop="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/BUTTON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/buton3"
+                    android:onClick="testler"
+                    android:text="Testler"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="İletişim"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="7dp"
+                android:text="Telefon Numarası: 0 (XXX) XXX XX XX"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="7dp"
+                android:text="Adres: İstanbul/Kartal, XXX Mah., XXX Sk., No: XX"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="7dp"
+                android:text="E-Mail: ornekmail@gmail.com"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                style="@style/TOOLBAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <ImageView
+                    android:id="@+id/iv_facebook"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/iv_instagram"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/instagram" />
+
+                <ImageView
+                    android:id="@+id/iv_twitter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/twitter" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
